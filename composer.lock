@@ -1,0 +1,533 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "eadc25d645f97eb1214ab0045c6bc9a6",
+    "packages": [
+        {
+            "name": "league/plates",
+            "version": "3.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/plates.git",
+                "reference": "c39d8fbcbeb07a0948d5e1cf8d78c6e1ef3e81a8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/plates/zipball/c39d8fbcbeb07a0948d5e1cf8d78c6e1ef3e81a8",
+                "reference": "c39d8fbcbeb07a0948d5e1cf8d78c6e1ef3e81a8",
+                "shasum": ""
+            },
+            "require-dev": {
+                "mikey179/vfsstream": "~1.4.0",
+                "phpunit/phpunit": "~4.0",
+                "squizlabs/php_codesniffer": "~1.5"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "League\\Plates\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jonathan Reinink",
+                    "email": "jonathan@reinink.ca",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Plates, the native PHP template system that's fast, easy to use and easy to extend.",
+            "homepage": "http://platesphp.com",
+            "keywords": [
+                "league",
+                "package",
+                "templates",
+                "templating",
+                "views"
+            ],
+            "time": "2014-10-21 12:06:12"
+        },
+        {
+            "name": "psr/http-message",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/http-message.git",
+                "reference": "85d63699f0dbedb190bbd4b0d2b9dc707ea4c298"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/http-message/zipball/85d63699f0dbedb190bbd4b0d2b9dc707ea4c298",
+                "reference": "85d63699f0dbedb190bbd4b0d2b9dc707ea4c298",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Http\\Message\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for HTTP messages",
+            "keywords": [
+                "http",
+                "http-message",
+                "psr",
+                "psr-7",
+                "request",
+                "response"
+            ],
+            "time": "2015-05-04 20:22:00"
+        },
+        {
+            "name": "tonis/di",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tonis-io/di.git",
+                "reference": "c90040a4ff39d8b75d2d83fefa7d3e11ba8eddcb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tonis-io/di/zipball/c90040a4ff39d8b75d2d83fefa7d3e11ba8eddcb",
+                "reference": "c90040a4ff39d8b75d2d83fefa7d3e11ba8eddcb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5"
+            },
+            "require-dev": {
+                "doctrine/annotations": "~1.2",
+                "phpunit/phpunit": "~4.0",
+                "scrutinizer/ocular": "^1.1.1",
+                "squizlabs/php_codesniffer": "~1.0",
+                "symfony/finder": "~2.1"
+            },
+            "suggest": {
+                "doctrine/annotations": "~1.2, for creating components from annotations",
+                "symfony/finder": "~2.1, for using the Symfony Finder to find annotated components"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-develop": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Tonis\\Di\\": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Kyle Spraggs",
+                    "email": "theman@spiffyjr.me"
+                }
+            ],
+            "description": "A light-weight, HHVM compatible, and dependency lite DI container.",
+            "time": "2015-06-01 17:16:17"
+        },
+        {
+            "name": "tonis/dispatcher",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tonis-io/dispatcher.git",
+                "reference": "260b8a6b48ec42d0a350a89d6d04fc4a2512b2b4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tonis-io/dispatcher/zipball/260b8a6b48ec42d0a350a89d6d04fc4a2512b2b4",
+                "reference": "260b8a6b48ec42d0a350a89d6d04fc4a2512b2b4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0",
+                "scrutinizer/ocular": "^1.1.1",
+                "squizlabs/php_codesniffer": "~1.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Tonis\\Dispatcher\\": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Kyle Spraggs",
+                    "email": "theman@spiffyjr.me"
+                }
+            ],
+            "description": "Tonis\\Dispatcher is a light-weight, HHVM compatible, and dependency free dispatching library.",
+            "time": "2015-06-01 17:16:32"
+        },
+        {
+            "name": "tonis/hookline",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tonis-io/hookline.git",
+                "reference": "2a5c99868dea080bf50637da0d842ebeb0911706"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tonis-io/hookline/zipball/2a5c99868dea080bf50637da0d842ebeb0911706",
+                "reference": "2a5c99868dea080bf50637da0d842ebeb0911706",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.0",
+                "squizlabs/php_codesniffer": "^1.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Tonis\\Hookline\\": [
+                        "src/",
+                        "test/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Kyle Spraggs",
+                    "email": "theman@spiffyjr.me"
+                }
+            ],
+            "description": "Tonis\\Hookline is a light-weight hook system with a focus on contracts.",
+            "time": "2015-06-01 17:53:03"
+        },
+        {
+            "name": "tonis/mvc",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tonis-io/mvc.git",
+                "reference": "809ad4856f52ddcb194396784ee139d313d2fb96"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tonis-io/mvc/zipball/809ad4856f52ddcb194396784ee139d313d2fb96",
+                "reference": "809ad4856f52ddcb194396784ee139d313d2fb96",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5",
+                "tonis/di": "dev-master",
+                "tonis/dispatcher": "dev-master",
+                "tonis/hookline": "dev-master",
+                "tonis/mvc": "dev-master",
+                "tonis/package-manager": "dev-master",
+                "tonis/router": "dev-master",
+                "tonis/view": "dev-master"
+            },
+            "suggest": {
+                "league/plates": "To use the PlatesPHP templating engine",
+                "symfony/console": "To add Console integration",
+                "twig/twig": "To use the Twig templating engine",
+                "zendframework/zend-diactoros": "Or another PSR-7 implementation"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Tonis\\Mvc\\": [
+                        "src/",
+                        "test/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Kyle Spraggs",
+                    "email": "theman@spiffyjr.me"
+                }
+            ],
+            "description": "Tonis is a light-weight, PSR-7 compliant, MVC middleware layer.",
+            "time": "2015-06-01 18:33:40"
+        },
+        {
+            "name": "tonis/package-manager",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tonis-io/package-manager.git",
+                "reference": "44db886ec6370ca4fd28ef590c9e5d976e6f1dfb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tonis-io/package-manager/zipball/44db886ec6370ca4fd28ef590c9e5d976e6f1dfb",
+                "reference": "44db886ec6370ca4fd28ef590c9e5d976e6f1dfb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4",
+                "tonis/hookline": "dev-master"
+            },
+            "require-dev": {
+                "mockery/mockery": "~0.9",
+                "phpunit/phpunit": "~4.0",
+                "squizlabs/php_codesniffer": "~1.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Tonis\\PackageManager\\": [
+                        "src/",
+                        "test/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Kyle Spraggs",
+                    "email": "theman@spiffyjr.me"
+                }
+            ],
+            "description": "Spiffy\\Package is a light-weight, HHVM compatible, and dependency lite package manager.",
+            "time": "2015-06-01 18:10:09"
+        },
+        {
+            "name": "tonis/router",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tonis-io/router.git",
+                "reference": "2d014b327971e32e59b92465214ed2d652b10420"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tonis-io/router/zipball/2d014b327971e32e59b92465214ed2d652b10420",
+                "reference": "2d014b327971e32e59b92465214ed2d652b10420",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.0",
+                "squizlabs/php_codesniffer": "^1.0",
+                "twig/twig": "^1.15",
+                "zendframework/zend-diactoros": "^1.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Tonis\\Router\\": [
+                        "src/",
+                        "test/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Kyle Spraggs",
+                    "email": "theman@spiffyjr.me"
+                }
+            ],
+            "description": "Tonis\\Router is a light-weight, HHVM compatible, and dependency free router library.",
+            "time": "2015-06-01 18:20:44"
+        },
+        {
+            "name": "tonis/view",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tonis-io/view.git",
+                "reference": "679af8d44f0b6f8f8381de7fb59df4205a7a5a6e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tonis-io/view/zipball/679af8d44f0b6f8f8381de7fb59df4205a7a5a6e",
+                "reference": "679af8d44f0b6f8f8381de7fb59df4205a7a5a6e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5"
+            },
+            "require-dev": {
+                "league/plates": "^3.1",
+                "phpunit/phpunit": "^4.0",
+                "scrutinizer/ocular": "^1.1.1",
+                "squizlabs/php_codesniffer": "^1.0",
+                "twig/twig": "^1.18"
+            },
+            "suggest": {
+                "twig/twig": "To use with the Twig engine"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Tonis\\View\\": [
+                        "src/",
+                        "test/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Kyle Spraggs",
+                    "email": "theman@spiffyjr.me"
+                }
+            ],
+            "description": "Tonis\\View is a light-weight, HHVM compatible, and dependency free view compatability layer. It does not provide its own templating system!",
+            "time": "2015-06-01 18:26:01"
+        },
+        {
+            "name": "zendframework/zend-diactoros",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zendframework/zend-diactoros.git",
+                "reference": "be067c409377671b8268236443d993374e1987fa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zendframework/zend-diactoros/zipball/be067c409377671b8268236443d993374e1987fa",
+                "reference": "be067c409377671b8268236443d993374e1987fa",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5",
+                "psr/http-message": "~1.0"
+            },
+            "provide": {
+                "psr/http-message-implementation": "~1.0.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.6",
+                "squizlabs/php_codesniffer": "~2.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev",
+                    "dev-develop": "1.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Zend\\Diactoros\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "description": "PSR HTTP Message implementations",
+            "homepage": "https://github.com/zendframework/zend-diactoros",
+            "keywords": [
+                "http",
+                "psr",
+                "psr-7"
+            ],
+            "time": "2015-05-26 17:14:45"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "league/plates": 20,
+        "tonis/mvc": 20
+    },
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
