@@ -43,4 +43,4 @@ if (file_get_contents('composer.json') !== file_get_contents('composer.json.' . 
     run(sprintf('cp composer.json.%s composer.json', $framework));
     run('composer update --prefer-dist -o');
 }
-run(sprintf('php -S 127.0.0.1:8080 -t public/ public/%s.php', $framework));
+run(sprintf('cd public/ && php -S 127.0.0.1:8080 %s.php', $framework));

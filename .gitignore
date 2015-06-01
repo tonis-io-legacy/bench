@@ -1,4 +1,5 @@
 cache/*
 !cache/.gitempty
 composer.json
+composer.lock
 vendor/
