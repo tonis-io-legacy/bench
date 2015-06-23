@@ -38,7 +38,10 @@ if (!in_array($argv[1], $frameworks)) {
 
 $framework = $argv[1];
 
-if (file_get_contents('composer.json') !== file_get_contents('composer.json.' . $framework)) {
+if (
+    !file_exists('composer.json') ||
+    (file_get_contents('composer.json') !== file_get_contents('composer.json.' . $framework))
+) {
     run('rm -rf vendor/');
     run(sprintf('cp composer.json.%s composer.json', $framework));
     run('composer update --prefer-dist -o');

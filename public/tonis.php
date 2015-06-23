@@ -1,9 +1,10 @@
 <?php
 require __DIR__ . '/../vendor/autoload.php';
 
-$tonis = new Tonis\Mvc\Tonis();
-$routes = $tonis->getRouteCollection();
-$routes->get('/hello/{name}', function($name) {
-    return "Tonis: Hello $name";
+$app = new \Tonis\App();
+$app->get('/hello/{name}', function($req, $res) {
+    $res->end("Tonis: Hello {$req->getAttribute('name')}");
 });
-$tonis->run();
+
+$server = Zend\Diactoros\Server::createServer($app, $_SERVER, $_GET, $_POST, $_COOKIE, $_FILES);
+$server->listen();

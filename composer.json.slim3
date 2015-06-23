@@ -1,0 +1,6 @@
+{
+    "require": {
+        "nikic/fast-route": "dev-master",
+        "slim/slim": "^3.0@dev"
+    }
+}
