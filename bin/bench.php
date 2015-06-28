@@ -44,6 +44,7 @@ if (
 ) {
     run('rm -rf vendor/');
     run(sprintf('cp composer.json.%s composer.json', $framework));
-    run('composer update --prefer-dist -o');
+    run('composer update --no-dev --prefer-dist -o');
 }
+
 run(sprintf('cd public/ && php -S 127.0.0.1:8080 %s.php', $framework));
