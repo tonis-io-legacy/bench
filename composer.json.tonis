@@ -1,7 +1,6 @@
 {
     "require": {
-        "league/plates": "^3.0@dev",
-        "tonis-io/tonis": "^1.0@dev",
+        "tonis-io/tonis": "dev-feature/refactor",
         "zendframework/zend-diactoros": "^1.0.0"
     },
     "minimum-stability": "dev",

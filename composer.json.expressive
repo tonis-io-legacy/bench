@@ -1,0 +1,7 @@
+{
+    "require": {
+        "zendframework/zend-expressive": "*@dev"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
